@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/Indexlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TxtIndex"
+        android:layout_alignStart="@+id/passwordlbl"
+        android:text="Index No"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="32dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <TextView
+        android:id="@+id/passwordlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TxtPassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:text="Password"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="114dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:id="@+id/TxtIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnlogin"
+        android:layout_marginTop="81dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="25dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:id="@+id/TxtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/TxtIndex"
+        android:layout_marginTop="173dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="101dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="100dp"
+        android:background="#6699ff"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="186dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="246dp"
+        android:textColor="#2002ff"
+        />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#f00"
+        android:textSize="15dp" />
+
+</RelativeLayout>

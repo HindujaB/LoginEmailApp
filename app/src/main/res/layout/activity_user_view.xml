@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    tools:context=".userView">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="48dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/Index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginTop="93dp"
+        android:text="Index No."
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginTop="137dp"
+        android:text="Email address"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/Mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginTop="180dp"
+        android:text="Mobile number"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/GPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginTop="223dp"
+        android:text="GPA"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/nameV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Name"
+        android:layout_marginEnd="109dp"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/indexV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nameV"
+        android:layout_marginTop="100dp"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/mailV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameV"
+        android:layout_alignTop="@+id/Mail"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/mobileV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameV"
+        android:layout_alignTop="@+id/Mobile"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/gpaV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameV"
+        android:layout_alignTop="@+id/GPA"
+        android:textColor="#ffffff"
+        tools:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <Button
+        android:id="@+id/emailbtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="157dp"
+        android:background="#6699ff"
+        android:text="Email"
+        android:textColor="#2002ff"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="310dp" />
+</RelativeLayout>
